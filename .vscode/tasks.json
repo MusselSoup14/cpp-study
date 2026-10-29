@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C++: build folder",
+			"command": "g++",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"-std=c++17",
+				"-Wall",
+				"-Wextra",				
+				"${fileDirname}\\*.cpp",
+				"-o",
+				"${fileDirname}\\main.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:/msys64/ucrt64/bin/g++.exe"
+		}
+	]
+}

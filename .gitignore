@@ -1,0 +1,15 @@
+# 빌드 결과물
+*.exe
+*.o
+*.obj
+build/
+
+# 강의자료, 강의 예제코드 등 공개하면 안 되는 파일을 두는 로컬 전용 폴더
+_local/
+
+# 에디터 / OS
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+Thumbs.db
+.DS_Store
